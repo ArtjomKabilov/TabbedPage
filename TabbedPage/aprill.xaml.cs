@@ -15,6 +15,7 @@ namespace TabbedPage
         public aprill()
         {
             InitializeComponent();
+            Title = "Aprill";
         }
     }
 }

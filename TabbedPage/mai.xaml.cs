@@ -15,6 +15,7 @@ namespace TabbedPage
         public mai()
         {
             InitializeComponent();
+            Title = "Mai";
         }
     }
 }

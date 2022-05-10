@@ -18,6 +18,7 @@ namespace TabbedPage
             Title = "Veebruar";
             Label lb = new Label()
             {
+                TextColor = Color.Black,
                 Text = "Veebruar on Juliuse kalendris ja Gregoriuse kalendris aasta teine kuu, samuti aasta kõige lühem kuu. Selles on lihtaastal 28 päeva ja liigaastal 29 päeva. " +
                 "Nimetus 'veebruar' on üle võetud roomlaste kalendrist, kus Februarius tähendas puhastuskuud; Februa oli puhastusjumal ning tähendas ka puhastus- ja lepituspüha. Veebruar oli Vana-Roomas aastani 154 eKr aasta viimane, kaheteistkümnes kuu. "
             };

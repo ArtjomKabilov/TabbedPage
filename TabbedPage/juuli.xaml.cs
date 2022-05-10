@@ -15,6 +15,7 @@ namespace TabbedPage
         public juuli()
         {
             InitializeComponent();
+            Title = "Juuli";
         }
     }
 }

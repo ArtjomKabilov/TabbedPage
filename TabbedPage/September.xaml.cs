@@ -15,6 +15,7 @@ namespace TabbedPage
         public September()
         {
             InitializeComponent();
+            Title = "September";
         }
     }
 }
