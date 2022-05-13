@@ -16,6 +16,20 @@ namespace TabbedPage
         {
             InitializeComponent();
             Title = "Juuli";
+            Label lb = new Label()
+            {
+                TextColor = Color.Black,
+                Text = "Juuli ehk heinakuu on Gregoriuse kalendris aasta seitsmes kuu. Selles on 31 päeva.   "
+
+
+
+            };
+            Image img = new Image()
+            {
+                Source = new Uri("https://p.ocdn.ee/53/i/2021/6/25/0au3b0ws.elr.jpg")
+            };
+
+            this.Content = new StackLayout { Children = { lb, img } };
         }
     }
 }

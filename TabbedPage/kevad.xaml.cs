@@ -16,6 +16,7 @@ namespace TabbedPage
         {
             InitializeComponent();
             Title = "Kevad";
+
         }
     }
 }

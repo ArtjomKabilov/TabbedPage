@@ -16,6 +16,18 @@ namespace TabbedPage
         {
             InitializeComponent();
             Title = "September";
+            Label lb = new Label()
+            {
+                TextColor = Color.Black,
+                Text = "Septembris on 30 päeva. " +
+               "Sõna 'september' on tulnud ladina sõnast septem ('seitse'). See oli Rooma kalendri seitsmes kuu (see kalender algas märtsikuuga). "
+            };
+            Image img = new Image()
+            {
+                Source = new Uri("https://t4.ftcdn.net/jpg/02/06/20/03/360_F_206200339_N9VJVoy0VvbbhRgGLIOHyJUJRJyxAmyO.jpg")
+            };
+
+            this.Content = new StackLayout { Children = { lb, img } };
         }
     }
 }
